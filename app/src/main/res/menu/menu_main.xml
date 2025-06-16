@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_inicio" android:title="Inicio" />
+    <item android:id="@+id/menu_contenido" android:title="Contenido" />
+    <item android:id="@+id/menu_uns" android:title="Página UNS" />
+    <item android:id="@+id/menu_biblioteca" android:title="Biblioteca" />
+    <item android:id="@+id/menu_campus_virtual" android:title="Campus Virtual" />
+    <item android:id="@+id/menu_intranet" android:title="Intranet" />
+
+</menu>

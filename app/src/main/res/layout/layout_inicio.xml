@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <ImageView
+        android:src="@drawable/logo_uns"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="Logo UNS"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:text="Bienvenido a la Guía Digital de la Universidad Nacional del Santa"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnConocerMas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conocer más"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="?attr/colorSecondary"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Título principal -->
+        <TextView
+            android:text="Universidad Nacional del Santa"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#B71C1C"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Descripción -->
+        <TextView
+            android:text="La Universidad Nacional del Santa (UNS), ubicada en Chimbote, Perú, es una institución pública comprometida con la excelencia académica, la investigación científica y la proyección social. Fue fundada en 1984 y ha formado miles de profesionales en diversas disciplinas."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="\nCuenta con modernas instalaciones, laboratorios especializados, bibliotecas digitales y convenios con instituciones nacionales e internacionales. Además, promueve la innovación y el emprendimiento entre sus estudiantes."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Subtítulo -->
+        <TextView
+            android:text="\nFacultades Destacadas:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/_000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Lista de facultades -->
+        <TextView
+            android:text="- Facultad de Ingeniería\n- Facultad de Ciencias de la Salud\n- Facultad de Educación y Humanidades\n- Facultad de Ciencias Económicas y Administrativas\n- Facultad de Derecho y Ciencias Políticas"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Misión -->
+        <TextView
+            android:text="\nMisión:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Formar profesionales íntegros, críticos y comprometidos con el desarrollo de la sociedad, a través de una educación de calidad y la investigación científica."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Visión -->
+        <TextView
+            android:text="\nVisión:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Ser una universidad líder en educación superior, investigación e innovación en el norte del Perú."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

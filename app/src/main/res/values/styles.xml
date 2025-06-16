@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Menú emergente con rojo UNS -->
+    <style name="PopupMenu.UNS" parent="ThemeOverlay.Material3">
+        <item name="android:popupBackground">#FCE4EC</item> <!-- fondo claro rojizo -->
+    </style>
+
+</resources>
